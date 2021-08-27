@@ -1,3 +1,8 @@
+# REQUIRE A SPECIFIC TERRAFORM VERSION OR HIGHER
+terraform {
+  required_version = ">= 0.12.20"
+}
+
 # Provider configuration
 provider "aws" {
   access_key = ""
